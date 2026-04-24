@@ -7,14 +7,14 @@
 -------------------------------------------------------------------------------
 local Config = {
     -- [1] PlatoBoost Settings
-    ServiceId       = 0, -- Your PlatoBoost Service ID
-    PlatoSecret     = "Token", -- Your PlatoBoost Secret Key
+    ServiceId       = 24423, -- Your PlatoBoost Service ID
+    PlatoSecret     = "11b60ef4-0a91-4b2f-9a5c-6487ee4879f1", -- Your PlatoBoost Secret Key
 
     -- [2] Anti-Bypass / Global Secret Variable
     Secret          = "Code1234", -- This makes the script ONLY run from the key script. Even if they copy the original obfuscated script to bypass the key, they won't be able to!
     
     -- [3] Scripts & Links
-    MainScriptURL   = "Link", -- The raw URL of your main script
+    MainScriptURL   = "https://raw.githubusercontent.com/limboGUT/keysystem/refs/heads/main/kiddie.lua", -- The raw URL of your main script
     
     -- [4] Social Media Settings (Set to true to show, false to hide)
     ShowDiscord     = false,
